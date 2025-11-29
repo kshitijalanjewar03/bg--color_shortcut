@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; width:320px; padding:12px; color:#111; }
+h2 { margin:0 0 12px 0; font-size:16px; }
+#grid { display:grid; grid-template-columns:repeat(2,1fr); gap:8px;}
+.color-btn {
+  padding:12px; border:none; border-radius:8px; cursor:pointer; font-size:14px; color:#fff;
+  display:flex; align-items:center; justify-content:center;
+}
+.color-btn:focus { outline:3px solid rgba(0,0,0,0.15); }
+#reset { padding:8px 12px; border-radius:6px; border:1px solid #333; cursor:pointer; background:#fff; }

@@ -1,0 +1,35 @@
+{
+  "name": "Background Color Shortcuts",
+  "description": "Change webpage background using shortcuts",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "permissions": ["scripting", "activeTab"],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "commands": {
+    "color_red": {
+      "suggested_key": { "default": "Ctrl+Shift+1" },
+      "description": "Red background"
+    },
+    "color_blue": {
+      "suggested_key": { "default": "Ctrl+Shift+2" },
+      "description": "Blue background"
+    },
+    "color_green": {
+      "suggested_key": { "default": "Ctrl+Shift+3" },
+      "description": "Green background"
+    },
+    "color_yellow": {
+      "suggested_key": { "default": "Ctrl+Shift+4" },
+      "description": "Yellow background"
+    }
+  }
+}
