@@ -7,7 +7,7 @@ It is specially designed to help visually impaired users by giving them quick ac
  Features
 
 1.Change webpage background color using keyboard shortcuts
-2.10 different color options
+2.different color options
 3.Easy pop-up UI for manual color selection
 4.Lightweight and fast
 5.Runs on any website
